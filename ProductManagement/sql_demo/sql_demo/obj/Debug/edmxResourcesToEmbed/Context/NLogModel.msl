@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_testModelStoreContainer" CdmEntityContainer="nlog_db_testEntities">
+    <EntitySetMapping Name="Product_Logs">
+      <EntityTypeMapping TypeName="db_testModel.Product_Logs">
+        <MappingFragment StoreEntitySet="Product_Logs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="LoggedOnDate" ColumnName="LoggedOnDate" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="Logger" ColumnName="Logger" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Callsite" ColumnName="Callsite" />
+          <ScalarProperty Name="InnerException" ColumnName="InnerException" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
