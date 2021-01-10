@@ -1,0 +1,95 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <!-- Datatables CSS Links -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.3.2/css/fixedColumns.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.dataTables.min.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="~/Content/alertifyjs/alertify.min.css" rel="stylesheet" />
+    <link href="~/Content/alertifyjs/themes/default.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top sidebar-navbar-inverse" style="background-color:dimgray">
+        <div class="container sidebar-navbar-container">
+
+            <div class="navbar-collapse collapse">
+
+                @Html.ActionLink("Product Management", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.Partial("_LoginPartial")
+
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-layout">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="sidebar-aside-content" style="background-color:dimgray">
+
+                <!-- Content of sidebar -->
+                <ul class="sidebar-nav" style="font-size:18px; margin-top:50px">
+                    <li>@Html.ActionLink("Add Product", "Product", "Product")</li>
+                    <li style="margin-top:30px">@Html.ActionLink("Product List", "ProductList", "Product")</li>
+
+                </ul>
+
+            </div>
+        }
+
+        <div class="container body-content">
+            @RenderBody()
+            <br /><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Product Management</p>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/alertify.min.js"></script>
+
+
+    @RenderSection("scripts", required: false)
+
+    <!-- Datatable JS Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+
+    <!-- Initialize Datatable -->
+    <script>
+        $(document).ready(function () {
+            var table = $('#productList_table').DataTable({
+                fixedHeader: true,
+                scrollX: true,
+                scrollCollapse: true,
+                "searching": true,
+                "lengthChange": true,
+                "paging": true,
+                "ordering": true,
+                "info": true,
+
+            });
+        });
+    </script>
+</body>
+</html>
