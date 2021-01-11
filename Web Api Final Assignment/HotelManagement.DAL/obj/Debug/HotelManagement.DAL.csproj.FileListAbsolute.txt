@@ -1,0 +1,14 @@
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\obj\Debug\HotelManagement.DAL.csprojAssemblyReference.cache
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\obj\Debug\HotelManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\HotelManagement.DAL.dll.config
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\HotelManagement.DAL.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\HotelManagement.DAL.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\HotelManagement.Models.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\HotelManagement.Models.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\obj\Debug\HotelManagement.DAL.csproj.CopyComplete
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\obj\Debug\HotelManagement.DAL.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.DAL\obj\Debug\HotelManagement.DAL.pdb

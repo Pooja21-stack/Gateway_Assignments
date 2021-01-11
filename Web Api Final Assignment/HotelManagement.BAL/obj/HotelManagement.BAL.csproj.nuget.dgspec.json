@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.BAL\\HotelManagement.BAL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.BAL\\HotelManagement.BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.BAL\\HotelManagement.BAL.csproj",
+        "projectName": "HotelManagement.BAL",
+        "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.BAL\\HotelManagement.BAL.csproj",
+        "packagesPath": "C:\\Users\\Lalit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lalit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.DAL\\HotelManagement.DAL.csproj": {
+                "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.DAL\\HotelManagement.DAL.csproj"
+              },
+              "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj": {
+                "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Unity.WebAPI": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.DAL\\HotelManagement.DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
+        "projectName": "HotelManagement.DAL",
+        "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.DAL\\HotelManagement.DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj": {
+                "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj",
+        "projectName": "HotelManagement.Models",
+        "projectPath": "C:\\Users\\Lalit\\source\\repos\\Hotel Management\\HotelManagement.Models\\HotelManagement.Models.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

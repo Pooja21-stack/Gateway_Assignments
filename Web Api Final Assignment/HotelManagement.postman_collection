@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "7347d2a4-6343-4a7a-a31e-76964350571a",
+		"name": "HotelManagementPostmanCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44323/api/Hotel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel"
+					]
+				},
+				"description": "● GET all hotels sort by alphabetic order. Response: List of hotels"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel",
+						"2"
+					]
+				},
+				"description": "● GET hotel using hotelID."
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"Taj\",\r\n    \"Address\": \"Mumbai\",\r\n    \"City\": \"Mumbai\",\r\n    \"PinCode\": \"395002\",\r\n    \"ContactNumber\": 9879609800,\r\n    \"ContactPerson\": \"Admin\",\r\n    \"Website\": \"Abc\",\r\n    \"Facebook\": \"fb\",\r\n    \"Twitter\": \"twtr\",\r\n    \"IsActive\": true,\r\n    \"CreatedBy\": \"Admin\",\r\n    \"UpdatedDate\": null,\r\n    \"UpdatedBy\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel"
+					]
+				},
+				"description": " POST 5-10 hotels with details of hotel and 3-5 rooms in each hotel with different price and\r\ndifferent category."
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/bookRoom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"RoomId\" : \"1\",\r\n   \"BookingDate\" : \"2020-02-02T00:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel"
+					]
+				},
+				"description": " POST Booked the room of hotel for particular date with (optional status)"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/createRoom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"HotelId\" : \"1\",\r\n   \"Name\" : \"302\",\r\n   \"Category\" : \"2 star\",\r\n   \"Price\" : 2000,\r\n   \"CreatedDate\" : \"2020-02-02T00:00:00\",\r\n   \"CreatedBy\" : \"Admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel"
+					]
+				},
+				"description": "Post Room with different price and category."
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/updateBookingStatus",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"BookingId\" : \"2\",\r\n   \"StatusOfBooking\" : \"Definitive\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel/updateBookingStatus",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel",
+						"updateBookingStatus"
+					]
+				},
+				"description": "PUT update booking status by booking Id (optional status to Definitive or Cancelled)"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/updateBookingDate",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"BookingId\" : \"2\",\r\n   \"BookingDate\" : \"2020-01-01 00:00:00.000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel/updateBookingStatus",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel",
+						"updateBookingStatus"
+					]
+				},
+				"description": " PUT update booking date."
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44323/api/Hotel/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://localhost:44323/api/Hotel/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"api",
+						"Hotel",
+						"2"
+					]
+				},
+				"description": " DELETE delete booking by booking Id (change status Deleted – soft delete)"
+			},
+			"response": []
+		}
+	]
+}

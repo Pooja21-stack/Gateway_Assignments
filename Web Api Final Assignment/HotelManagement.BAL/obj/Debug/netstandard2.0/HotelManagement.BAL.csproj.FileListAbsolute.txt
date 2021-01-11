@@ -1,0 +1,17 @@
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.BAL.deps.json
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.BAL.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.AssemblyInfoInputs.cache
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.AssemblyInfo.cs
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.csprojAssemblyReference.cache
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.BAL.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.DAL.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.Models.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\EntityFramework.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.DAL.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.DAL.dll.config
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\HotelManagement.Models.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\bin\Debug\netstandard2.0\EntityFramework.xml
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.csproj.CopyComplete
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.dll
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.pdb
+C:\Users\Lalit\source\repos\Hotel Management\HotelManagement.BAL\obj\Debug\netstandard2.0\HotelManagement.BAL.csproj.CoreCompileInputs.cache
